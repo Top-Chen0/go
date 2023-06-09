@@ -6,10 +6,16 @@ import "fmt"
 //	fmt.Print("test")
 //}
 
-func add(x, y int) int {
-	return x + y
-}
+//func add(x, y int) int {
+//	return x + y
+//}
+//
+//func main() {
+//	fmt.Print(add(42, 13))
+//}
 
 func main() {
-	fmt.Print(add(42, 13))
+	name := "陈俊豪"
+	age := 26
+	fmt.Print(name, age)
 }
